@@ -1,0 +1,18 @@
+.page-link:focus {
+    box-shadow: 0 0 0 0.2rem rgba(189, 195, 199, 1);
+}
+
+.page-item.active .page-link {
+    z-index: 1;
+    background-color: #bdc3c7;
+    border-color: #bdc3c7;
+}
+
+th > a {
+    color: #fff;
+}
+
+th > a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
